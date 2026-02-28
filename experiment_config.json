@@ -1,0 +1,47 @@
+{
+  "environment": {
+    "grid_size_in_points": 1016,
+    "grid_spacing": 9.0,
+    "target_region_radius": 1500.0,
+    "maximum_detection_distance": 2500.0,
+    "minimum_depth_in_meters": 0.5,
+    "maximum_depth_in_meters": 8.0,
+    "x_center_in_meters": 0.0,
+    "y_center_in_meters": 0.0
+  },
+  "genetic_algorithm": {
+    "number_of_generations": 500,
+    "population_size": 250,
+    "tournament_size": 3,
+    "crossover_probability": 0.2,
+    "mutation_probability": 0.02,
+    "standard_deviation_of_xy_mutation": 150.0,
+    "standard_deviation_of_z_mutation": 0.8,
+    "elitism": 5,
+    "random_seed": 123
+  },
+  "simulation": {
+    "number_of_impact_points_per_evaluation": 30,
+    "time_noise_standard_deviation": 0.0005,
+    "coarse_search_step_in_meters": 20.0,
+    "fine_search_step_in_meters": 6.0,
+    "refinement_radius_in_meters": 80.0,
+    "invalid_coverage_penalty": 10.0,
+    "penalty_for_buoys_too_close": 1.0,
+    "minimum_distance_between_buoys_in_meters": 100.0
+  },
+  "performance": {
+    "parallel_evaluation_mode": "auto",
+    "number_of_workers": 2,
+    "enable_parallel_evaluation": true
+  },
+  "particle_swarm": {
+    "number_of_iterations": 1250,
+    "swarm_size": 100,
+    "inertia_w": 0.72,
+    "cognitive_c1": 1.49,
+    "social_c2": 1.49,
+    "vmax_fraction_of_range": 0.05,
+    "random_seed": 321
+  }
+}

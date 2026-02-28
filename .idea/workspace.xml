@@ -1,19 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1db14ad2-d95f-4e4f-aff8-56529a47abfd" name="Changes" comment="" />
+    <list default="true" id="1db14ad2-d95f-4e4f-aff8-56529a47abfd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acoustic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acoustic/arrival_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acoustic/sound_speed_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acoustic/sound_speed_profile_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/cost_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/executable/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/executable/ga_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/executable/pso_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/executable/regular_polygon_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genetic_algorithm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genetic_algorithm/chromosome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genetic_algorithm/crossover.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genetic_algorithm/genetic_algorithm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genetic_algorithm/mutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genetic_algorithm/penalty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genetic_algorithm/population.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genetic_algorithm/selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometry/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometry/distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometry/grid_geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/impacts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/impacts/impact_point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/impacts/impact_saver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localization/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localization/mle_estimator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/particle_swarm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/particle_swarm/particle_swarm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/parallel_evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_polygon/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular_polygon/regular_polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/plot_ga_scenarios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/plot_pso_scenarios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/plot_regular_polygon_scenarios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/environment_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/genetic_algorithm_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/logging_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/particle_swarm_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/performance_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/simulation_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/executors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/loaders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/seeding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualization/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualization/plot_scenarios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3988hNiLoP82e1ECPK9sZ3Rwu1s" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,17 +95,31 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/MeusEstudos/Underwater-Acoustic-Sensor",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MeusEstudos\Underwater-Acoustic-Sensor" />
+      <recent name="D:\MeusEstudos\Underwater-Acoustic-Sensor\settings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MeusEstudos\Underwater-Acoustic-Sensor\utils" />
+      <recent name="D:\MeusEstudos\Underwater-Acoustic-Sensor\models" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
         <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
       </set>
     </attachedChunks>
