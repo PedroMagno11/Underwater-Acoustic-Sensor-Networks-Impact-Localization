@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1db14ad2-d95f-4e4f-aff8-56529a47abfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/compare_ga_vs_pso_vs_regular_polygon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/plot_ga_scenarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/plot_ga_scenarios.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/plot_pso_scenarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/plot_pso_scenarios.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -313,7 +313,10 @@ Planned extensions include:
 
 # 👨‍💻 Authors
 
-Pedro Magno Almeida Nogueira
-José Gomes de Carvalho Junior
-Pablo Rangel
-Júlio César
+- Pedro Magno Almeida Nogueira
+
+- José Gomes de Carvalho Junior
+
+- Pablo Rangel
+
+- Julio Cesar
