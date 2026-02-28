@@ -327,25 +327,24 @@ def generate_ga_scenario_figures(
 
 
 if __name__ == "__main__":
-    # 🔧 HARD CODE AQUI
-    generate_ga_scenario_figures(
-        number_of_sensors=5,
-        output_root="outputs",
-        figures_subdir="figures_ga_only",
-        covered_color="green",
-        uncovered_color="tab:red",
-        min_sensors_for_coverage=3,
-        show_detection=True,
-        show_depth_labels=True,
+    for n in [3,4,5]:
+        generate_ga_scenario_figures(
+            number_of_sensors=n,
+            output_root="outputs",
+            figures_subdir="figures_ga_only",
+            covered_color="green",
+            uncovered_color="tab:red",
+            min_sensors_for_coverage=3,
+            show_detection=True,
+            show_depth_labels=True,
 
-        # ✅ toggle aqui
-        show_sensor_polygon_links=False,   # <-- mude pra False para desligar
-        polygon_line_color="black",
-        polygon_line_style="--",
-        polygon_line_width=1.2,
-        polygon_line_alpha=0.65,
-        distance_decimals=1,
-        distance_unit="m",
+            show_sensor_polygon_links=False,   # <-- mude pra False para desligar
+            polygon_line_color="black",
+            polygon_line_style="--",
+            polygon_line_width=1.2,
+            polygon_line_alpha=0.65,
+            distance_decimals=1,
+            distance_unit="m",
 
-        write_csv=True,
-    )
+            write_csv=True,
+        )

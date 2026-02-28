@@ -287,4 +287,5 @@ poetry.toml
 pyrightconfig.json
 
 outputs
+outputs_comparison
 execution.log

@@ -297,16 +297,17 @@ def generate_pso_scenario_figures(
 
 
 if __name__ == "__main__":
-    generate_pso_scenario_figures(
-        number_of_sensors=5,
-        config_path="experiment_config.json",
-        impacts_subdir="impacts_pso",
-        fallback_impacts_subdir="impacts",
-        plot_best_so_far_on_all_iterations=True,
-        plot_best_global_only=False,
-        plot_snapshots_on_single_iteration_impacts=True,
-        snapshots_iteration_index=0,
-        snapshot_every=50,
-        max_snapshots=14,
-        show_sensor_polygon_links=False,
-    )
+    for n in [3,4,5]:
+        generate_pso_scenario_figures(
+            number_of_sensors=n,
+            config_path="experiment_config.json",
+            impacts_subdir="impacts_pso",
+            fallback_impacts_subdir="impacts",
+            plot_best_so_far_on_all_iterations=True,
+            plot_best_global_only=False,
+            plot_snapshots_on_single_iteration_impacts=True,
+            snapshots_iteration_index=0,
+            snapshot_every=50,
+            max_snapshots=14,
+            show_sensor_polygon_links=False,
+        )
