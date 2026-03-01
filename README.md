@@ -1,8 +1,9 @@
 # 🌊 Deployment of Underwater Acoustic Sensor Networks for Projectile Impact Localization
 
-## 📌 Research Framework – FUSION 2026
+## 📌 Research Framework
 
-This repository contains the complete simulation framework used in the research submitted to **FUSION 2026**, investigating optimal deployment strategies for underwater acoustic sensor networks under realistic acoustic propagation conditions.
+This repository contains the complete simulation framework used in the research 
+submitted to **FUSION 2026**, investigating optimal deployment strategies for underwater acoustic sensor networks under realistic acoustic propagation conditions.
 
 The study evaluates the impact of:
 
@@ -226,6 +227,19 @@ The framework generates:
 * CSV performance metrics
 * Deployment figures
 * Coverage visualizations
+
+
+All raw optimization outputs are stored under:
+```
+outputs/
+```
+
+Comparative results between GA, PSO, and regular polygon baseline deployments are available in:
+```
+outputs_comparison/
+```
+This directory contains aggregate metrics, scenario-level comparisons, and statistical summaries used in the 
+analysis presented in the submitted paper.
 
 Visualization scripts are available in:
 
