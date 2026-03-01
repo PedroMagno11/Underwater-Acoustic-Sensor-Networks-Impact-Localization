@@ -238,7 +238,7 @@ Comparative results between GA, PSO, and regular polygon baseline deployments ar
 ```
 outputs_comparison/
 ```
-This directory contains aggregate metrics, scenario-level comparisons, and statistical summaries used in the 
+This directory contains aggregated metrics, scenario-level comparisons, and statistical summaries used in the 
 analysis presented in the submitted paper.
 
 Visualization scripts are available in:
